@@ -1,0 +1,21 @@
+{
+    "name": "integracion/epagos-php",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Integracion\\Epagos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ezequiel Garibotti",
+            "email": "egaribotti@sugit.com.ar"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0.2",
+        "ext-soap": "*"
+    }
+}
