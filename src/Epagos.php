@@ -12,11 +12,13 @@ class Epagos
     public string $version;
     public array $credenciales = [];
 
-    public const ENTORNO_SANDBOX = 1;
-    public const ENTORNO_PRODUCCION = 0;
+    public const ENTORNO_SANDBOX = 0;
+    public const ENTORNO_PRODUCCION = 1;
 
     public function __construct(int $entorno = self::ENTORNO_SANDBOX)
     {
+        $wsdl = null;
+
         if (in_array($entorno, [self::ENTORNO_SANDBOX, self::ENTORNO_PRODUCCION])) {
             $wsdl_soap = null;
             $filename = dirname(__DIR__) . DIRECTORY_SEPARATOR . array_key_last(get_defined_vars());
@@ -28,7 +30,7 @@ class Epagos
         $trace = true;
 
         try {
-            $this->client = new SoapClient($wsdl ?? null, array_slice(get_defined_vars(), 4));
+            $this->client = new SoapClient($wsdl, array_slice(get_defined_vars(), -3));
         } catch (SoapFault $fault) {
             throw new EpagosException($fault->getMessage());
         }
