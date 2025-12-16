@@ -1,0 +1,22 @@
+{
+    "name": "handler/epagos-php",
+    "description": "SDK en PHP para la integración con la API de ePagos.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Handler\\Epagos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ezequiel Garibotti",
+            "email": "egaribotti@sugit.com.ar"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0.2",
+        "ext-soap": "*"
+    }
+}
