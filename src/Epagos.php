@@ -121,7 +121,7 @@ class Epagos
     public function solicitudPagoRecurrente(array $operacion, $convenio, string $medio, array $cliente, string $fechaDebito = null): array
     {
         try {
-            return $this->client->obtener_pagos($this->version, 'op_pago_recurrente', $this->credenciales, $operacion, $convenio, $medio, $cliente, $fechaDebito);
+            return $this->client->solicitud_pago_recurrente($this->version, 'op_pago_recurrente', $this->credenciales, $operacion, $convenio, $medio, $cliente, $fechaDebito);
         } catch (SoapFault $fault) {
             throw new EpagosException($fault->getMessage());
         }
