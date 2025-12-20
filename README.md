@@ -1,10 +1,17 @@
-# ePagos PHP
+<p align="center">
+  <a href="https://laravel.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/egaribotti/epagos-php/refs/heads/main/logo_epagos.png" width="400" alt="ePagos Logo">
+  </a>
+</p>
 
-[![Latest Stable Version](https://poser.pugx.org/handler/epagos-php/v/stable.svg)](https://packagist.org/packages/handler/epagos-php)
-[![Total Downloads](https://poser.pugx.org/handler/epagos-php/downloads.svg)](https://packagist.org/packages/handler/epagos-php)
-[![License](https://poser.pugx.org/handler/epagos-php/license.svg)](https://packagist.org/packages/handler/epagos-php)
-
-ePagos PHP es un SDK que permite integrar la API de ePagos de forma simple y directa.
+  <p align="center">
+ePagos PHP es un SDK <strong>no oficial</strong> que permite integrar la API de ePagos de forma simple y directa.</p>
+</p>
+<p align="center">
+<a href="https://packagist.org/packages/handler/epagos-php"><img src="https://poser.pugx.org/handler/epagos-php/downloads.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/handler/epagos-php"><img src="https://poser.pugx.org/handler/epagos-php/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/handler/epagos-php"><img src="https://poser.pugx.org/handler/epagos-php/license.svg" alt="License"></a>
+<br>
 
 ## Requisitos e instalación
 
