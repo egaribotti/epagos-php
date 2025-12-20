@@ -5,7 +5,7 @@
 </p>
 
   <p align="center">
-ePagos PHP es un SDK <strong>no oficial</strong> que permite integrar la API de ePagos de forma simple y directa.</p>
+ePagos PHP es un SDK <strong>no oficial</strong> que permite integrar la API de ePagos de forma simple y directa. Para más información sobre cómo conformar los datos a enviar y cómo interpretar los datos a recibir, consulte la [documentación oficial de ePagos](https://www.epagos.com/templates/desarrolladores/referencia.php).</p>
 </p>
 <p align="center">
 <a href="https://packagist.org/packages/handler/epagos-php"><img src="https://poser.pugx.org/handler/epagos-php/downloads.svg" alt="Total Downloads"></a>
@@ -16,17 +16,11 @@ ePagos PHP es un SDK <strong>no oficial</strong> que permite integrar la API de 
 ## Requisitos e instalación
 
 Se recomienda utilizar versiones de PHP 8.0.2 o superior para garantizar
-compatibilidad y seguridad a largo plazo.
-
-Puedes instalar el paquete mediante [Composer](https://getcomposer.org/).
+compatibilidad y seguridad a largo plazo. Instalar el paquete mediante [Composer](https://getcomposer.org/).
 
 ```bash
 composer require handler/epagos-php
 ```
-
-## Documentación
-
-Para más información sobre cómo conformar los datos a enviar y cómo interpretar los datos a recibir, consulte la [documentación oficial de ePagos](https://www.epagos.com/templates/desarrolladores/referencia.php).
 
 ## Aviso legal
 
