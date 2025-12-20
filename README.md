@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://laravel.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/egaribotti/epagos-php/refs/heads/main/logo_epagos.png" width="400" alt="ePagos Logo">
+    <img src="https://raw.githubusercontent.com/egaribotti/epagos-php/refs/heads/main/logo_epagos.png" width="250" alt="ePagos Logo">
   </a>
 </p>
 
