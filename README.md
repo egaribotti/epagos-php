@@ -11,7 +11,7 @@
 </p>
 
   <p align="center">
-ePagos PHP es un SDK <strong>no oficial</strong> que permite integrar la API de ePagos de forma simple y directa. Para más información sobre cómo conformar los datos a enviar y cómo interpretar los datos a recibir, consulte la [documentación oficial de ePagos](https://www.epagos.com/templates/desarrolladores/referencia.php).</p>
+ePagos PHP es un SDK <strong>no oficial</strong> que permite integrar la API de ePagos de forma simple y directa. Para más información sobre cómo conformar los datos a enviar y cómo interpretar los datos a recibir, consulte la <a href="https://www.epagos.com/templates/desarrolladores/referencia.php">documentación oficial de ePagos</a>.</p>
 </p>
 
 ## Requisitos e instalación
