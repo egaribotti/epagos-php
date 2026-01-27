@@ -1,0 +1,16 @@
+{
+    "name": "egaribotti/epagos-php",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Epagos\\": "src/"
+        }
+    },
+    "authors": [],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0.2",
+        "ext-soap": "*"
+    }
+}
